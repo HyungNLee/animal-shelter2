@@ -40,11 +40,6 @@ Please contact us at *blank@blank.com* for more information.
 * Media Query
 * Responsive Design
 
-## Link to GitHub Pages
-
-sn31.github.io/animal-shelter
-ctb116.github.io/animal-shelter
-
 ### License: MIT.
 
 #### Copyright (c) 2018 Skye Nguyen, Cathy Bradley

@@ -18,6 +18,7 @@ img {
   border-bottom: 2px solid pink;
 }
 
+/*** Page Layout ***/
 .column-1 {
   float: left;
   width: 50%;
@@ -29,6 +30,7 @@ img {
   width: 50%;
 }
 
+/*** General Styling ***/
 .main img {
   float:left;
   clear: both;
@@ -79,7 +81,7 @@ p {
   -webkit-text-stroke: 0.7px black;
 }
 
-
+/*** Media Query ***/
 @media screen and (max-width: 768px){
   .column-1 {
     float: left;

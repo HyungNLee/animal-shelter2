@@ -1,16 +1,20 @@
 body {
-  background-color: white;
-
+  background-color: black;
+  color: white;
 }
 img {
-  width: 30%;
-  height: 15%;
+  width: 300px;
+  height: 200px;
+  margin:10px;
 }
 #logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  height: 20%;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
 }
 
 .column-1 {
@@ -22,4 +26,33 @@ img {
 .column-2 {
   float: right;
   width: 50%;
+}
+
+.main img {
+  float:left;
+  clear: both;
+}
+
+.para {
+  padding-left: 3px;
+  padding-top: 1px;
+}
+
+.half-width {
+  border: 2px solid white;
+  border-radius: 10px;
+  clear:both;
+  overflow: auto;
+  margin:15px;
+  padding: 5px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 70px;
+  font-family: Lily Script One;
+  letter-spacing: 4px;
 }

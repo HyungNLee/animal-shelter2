@@ -78,3 +78,25 @@ p {
   background-color: pink;
   -webkit-text-stroke: 0.7px black;
 }
+
+
+@media screen and (max-width: 768px){
+  .column-1 {
+    float: left;
+    width: 50%;
+  }
+  .column-2 {
+    float: right;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .column-1 {
+    width: 100%;
+  }
+
+  .column-2 {
+    width: 100%;
+  }
+}

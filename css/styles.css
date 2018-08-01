@@ -11,6 +11,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 0;
   width: 50%;
   height: 20%;
   border-top: 2px solid white;
@@ -31,10 +32,11 @@ img {
 .main img {
   float:left;
   clear: both;
+  border: 2px dotted pink;
 }
 
 .para {
-  padding-left: 3px;
+  padding-left: 10px;
   padding-top: 1px;
 }
 
@@ -50,9 +52,27 @@ img {
 h1, h2 {
   text-align: center;
 }
-
+#tagline {
+  letter-spacing: 5px;
+  word-spacing: 10px;
+  font-size: 30px;
+  font-family: Bree Serif;
+  margin-top: 2px;
+  padding-top: 0;
+}
 h1 {
   font-size: 70px;
   font-family: Lily Script One;
   letter-spacing: 4px;
+}
+
+p {
+  font-size: 20px;
+  word-spacing: 2px;
+}
+
+.main h2 {
+  font-family: Lily Script One;
+  letter-spacing: 3px;
+  background-color: pink;
 }

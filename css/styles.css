@@ -14,8 +14,8 @@ img {
   margin-bottom: 0;
   width: 50%;
   height: 20%;
-  border-top: 2px solid white;
-  border-bottom: 2px solid white;
+  border-top: 2px solid pink;
+  border-bottom: 2px solid pink;
 }
 
 .column-1 {
@@ -73,6 +73,8 @@ p {
 
 .main h2 {
   font-family: Lily Script One;
+  font-size: 35px;
   letter-spacing: 3px;
   background-color: pink;
+  -webkit-text-stroke: 0.7px black;
 }

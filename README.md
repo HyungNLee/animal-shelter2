@@ -22,10 +22,6 @@ This website includes a nav bar, a header section and a main section for the ani
 
 5. Adjust browser's screen size to see alternative layouts.
 
-## Known Bugs
-
-Nav Bar is not completely centered.
-
 ## Support and contact details
 
 Please contact us at *blank@blank.com* for more information.

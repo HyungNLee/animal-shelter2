@@ -91,7 +91,7 @@ ul {
 }
 
 a {
-  color: white;
+  color: inherit;
   text-decoration: none;
   font-family: Bree Serif;
 }
@@ -99,6 +99,39 @@ a {
 li {
   display: inline-block;
   margin-left: 10px;
+}
+
+/*** Buttons ***/
+#dark {
+  background-color: grey;
+  color: white;
+}
+
+#light {
+  background-color: white;
+  color: black;
+}
+
+#default {
+  background-color: white;
+  color: black;
+}
+/*** Body ***/
+
+.dark-background {
+  background-color: grey;
+  color: white;
+}
+
+.light-background {
+  background-color: white;
+  color: black;
+}
+
+.themes {
+  text-align: center;
+  margin-top: -15px;
+  margin-bottom: 20px;
 }
 /*** Media Query ***/
 @media screen and (max-width: 768px){

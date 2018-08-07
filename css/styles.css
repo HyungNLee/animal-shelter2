@@ -81,6 +81,25 @@ p {
   -webkit-text-stroke: 0.7px black;
 }
 
+/*** Nav Bar ***/
+ul {
+  list-style-type: none;
+  text-align: center;
+  margin-bottom: 2px;
+  font-size: 30px;
+  word-spacing: 40px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-family: Bree Serif;
+}
+
+li {
+  display: inline-block;
+  margin-left: 10px;
+}
 /*** Media Query ***/
 @media screen and (max-width: 768px){
   .column-1 {
